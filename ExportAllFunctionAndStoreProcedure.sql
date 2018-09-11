@@ -1,7 +1,7 @@
 -- =============================================
--- Author:		Kevin
+-- Author:	Kevin
 -- Create date: 2018-09-11
--- Description:	匯出資料庫所有Function與StoreProcedure
+-- Description:	Export all Functions & StoreProcedures
 -- =============================================
 CREATE PROCEDURE dbo.ExportAllFunctionAndStoreProcedure
 	@ROOT_PATH NVARCHAR(50) = 'E:\StoreProcedure\'
